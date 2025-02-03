@@ -79,13 +79,29 @@ nav ul{
 
 }
 .card{
-    max-width: 300px;
+    max-width: 250px;
     margin: 0 auto;
+    padding: 30px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .section-content{
     display: flex;
     justify-content: space-around;
 }
 .card-1{
-    background: linear-gradient(#01ACFD,#ffffff )
+    background: linear-gradient(#DEF5FF,#ffffff )
+}
+.card-2{
+    background: linear-gradient(#DEF5FF,#ffffff )
+}
+.card-3{
+    background: linear-gradient(#DEF5FF,#ffffff )
+}
+.card-img{
+    width: 100px;
+    margin: 0 auto;
+
 }
