@@ -1,107 +1,120 @@
-
 .quicksand-normal {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    }
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 /*Nav Styles*/
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 8px 130px ;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 130px;
 }
 nav ul li {
-    list-style: none;
-    margin:20px 35px;
-
+  list-style: none;
+  margin: 20px 35px;
 }
 
-nav li a{
-    text-decoration: none;
-    font-size: 15px;
-    color: black;
+nav li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
 }
-nav ul{
-    display: flex;
-    /*Button Styles*/
+nav ul {
+  display: flex;
+  /*Button Styles*/
 }
-.btn-primary{
-    background-color: orange;
-    padding: 8px 28px;
-    border: none;
-    border-radius: 10px;
-    color: white; 
-    cursor: pointer;
+.btn-primary {
+  background-color: orange;
+  padding: 8px 28px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
 }
-.btn-missionary{
-    background-color: black;
-    color: white;
-    padding: 8px 28px;
-    border-radius: 10px;
+.btn-missionary {
+  background-color: black;
+  color: white;
+  padding: 8px 28px;
+  border-radius: 10px;
 }
 /*Shared Styles*/
 
-.text-primary{
-    color: orange;
+.text-primary {
+  color: orange;
 }
-.text-missionary{
-    color: #01ACFD;
+.text-missionary {
+  color: #01acfd;
 }
 /*Banner-Styles*/
-.banner{
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    width: 80vw;
-    margin: 0 auto;
-    align-items: center;
-
+.banner {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 80vw;
+  margin: 0 auto;
+  align-items: center;
 }
-.banner-kid{
-    width: 400px;
+.banner-kid {
+  width: 400px;
 }
-.banner-content{
-    width: 550px;
-    justify-content: space-between;
+.banner-content {
+  width: 550px;
+  justify-content: space-between;
 }
-.img-logo{
-    display: flex;
-    height: 50px
-    
+.img-logo {
+  display: flex;
+  height: 50px;
 }
-.section-title{
-    font-size: 40px;
-    font-weight: bold;
-    color: black;
-    text-align: center;
-
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
 }
-.card{
-    max-width: 250px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.card {
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-.section-content{
-    display: flex;
-    justify-content: space-around;
+.section-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.card-1{
-    background: linear-gradient(#DEF5FF,#ffffff )
+.card-1 {
+  background: linear-gradient(#def5ff, #ffffff);
 }
-.card-2{
-    background: linear-gradient(#DEF5FF,#ffffff )
+.card-2 {
+  background: linear-gradient(#fff4dc, #ffffff);
 }
-.card-3{
-    background: linear-gradient(#DEF5FF,#ffffff )
+.card-3 {
+  background: linear-gradient(#f2e8ff, #ffffff);
 }
-.card-img{
-    width: 100px;
-    margin: 0 auto;
-
+.card-img {
+  width: 100px;
+  margin: 0 auto;
+}
+.btn-3 {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stories-container {
+  display: flex;
 }
