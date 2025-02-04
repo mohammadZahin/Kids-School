@@ -277,4 +277,7 @@ footer {
   .section-title {
     max-width: 200px;
   }
+  .story-card-large {
+    display: none;
+  }
 }
