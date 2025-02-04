@@ -57,7 +57,7 @@ nav ul {
   align-items: center;
 }
 .banner-kid {
-  width: 400px;
+  max-width: 300px;
 }
 .banner-content {
   width: 550px;
@@ -197,7 +197,84 @@ nav ul {
 }
 /*Footer Styles*/
 .footer-content {
+  display: flex;
+  color: white;
   background-color: #01acfd;
-  padding: 20px 0;
-  text-align: center;
+  justify-content: space-around;
+}
+.footer-links ul {
+  list-style: none;
+  text-align: left;
+  margin: 0 auto;
+}
+.footer-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  background-color: #01acfd;
+  padding: 80px;
+}
+.footer-logo {
+  width: 300px;
+}
+.nav-sign {
+  display: none;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width: 600px) {
+  nav {
+    margin: 8px 20px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .banner-kid {
+    width: 300px;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .card {
+    max-width: 200px;
+  }
+  .section-content {
+    flex-direction: column;
+  }
+  .story-card-large {
+    width: 100%;
+  }
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+  .story-card {
+    max-width: 100%;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-logo {
+    width: 200px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav h3 {
+    display: none;
+  }
+  .nav-sign {
+    display: flex;
+  }
+  .banner-kid {
+    max-width: 250px;
+  }
+  .section-title {
+    max-width: 200px;
+  }
 }
